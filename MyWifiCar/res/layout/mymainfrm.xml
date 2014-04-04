@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textViewIP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Control URL" />
+
+        <EditText
+            android:id="@+id/editIP"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="http://192.168.1.1:8080/?action=stream" />
+
+        <TextView
+            android:id="@+id/textCtrlIP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Control IP address" />
+
+        <EditText
+            android:id="@+id/editCtrlIP"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="192.168.1.1" />
+
+        <TextView
+            android:id="@+id/textCtrlPort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ControlPort" />
+
+        <EditText
+            android:id="@+id/editCtrlPort"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="2001" />
+
+        <CheckBox
+            android:id="@+id/checkBox_Scale"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="KeepScale" />
+
+        <Button
+            android:id="@+id/button_go"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Start" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayoutVideo"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <wificar.MySurfaceView
+        android:id="@+id/mySurfaceViewVideo"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    
+      <Button
+        android:id="@+id/ForWard"
+        android:layout_width="66dp"
+        android:layout_height="55dp"
+        android:layout_x="70dp"
+        android:layout_y="200dp"
+        android:text="Forward" />
+
+    <Button
+        android:id="@+id/BackWard"
+        android:layout_width="66dp"
+        android:layout_height="55dp"
+        android:layout_x="70dp"
+        android:layout_y="320dp"        
+        android:text="Backward" />
+    
+    <Button
+        android:id="@+id/TurnLeft"
+        android:layout_width="66dp"
+        android:layout_height="55dp"
+        android:layout_x="0dp"
+        android:layout_y="260dp"
+        android:text="Left" />
+
+  
+
+    <Button
+        android:id="@+id/TurnRight"
+        android:layout_width="66dp"
+        android:layout_height="55dp"
+        android:layout_x="140dp"
+        android:layout_y="260dp"
+        android:text="Right" />
+
+</AbsoluteLayout>
