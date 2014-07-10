@@ -1,4 +1,4 @@
-Robot-Wireless-Car-with-Camera
+Robot Wireless Car with Camera
 ==============================
 
 Implemented a robot car by using WIFI module and STM32(Cortex-M3 ARM processor) board to drive the car for four directions, 
